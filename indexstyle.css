@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,400;0,600;0,800;1,100;1,400;1,600;1,800&display=swap" rel="stylesheet');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.content{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0 30px;
+    max-width: 1250px;
+}
+
+.content h1{
+    font-size: 70px;
+    color: #dec19f;
+    font-weight: 600;
+}
+
+.content h2{
+    font-size: 20px;
+    color: white;
+    font-weight: 550;
+}
+.content p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.content-header{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    text-align: center;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: -1;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        width: auto;
+        height: 100%;
+    }
+}
+

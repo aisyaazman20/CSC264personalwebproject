@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hire me! | AISYA</title>
+        <link rel="stylesheet" href="stylee.css">
+        <meta charset="UTF-8">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,700;0,800;0,900;1,200;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,400;0,600;0,800;1,100;1,400;1,600;1,800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/46a97794fb.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="hero">
+            <nav>
+                <div class="logo">PORTFOLIO</div>
+                <ul id="navList">
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="biography.html">BIOGRAPHY</a></li>
+                    <li><a href="project.html">PROJECT</a></li>
+                    <li><a href="form.html">SEND ME!</a></li>
+                </ul>
+                <button class="menu" id="menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+
+            <section class="form-section">
+                <h2>Let me get to know you!</h2>
+                <div class="form-container">
+                    <div class="form-card">
+                        <form action="submit-result.html" method="GET">
+                            <div>
+                                <label class="form-label" for="fname">Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="First Name" required>
+                                <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+                            </div>
+                            <div>
+                                <label class="form-label" for="age">Age</label>
+                                <input type="number" name="age" id="age" min="18" max="100">
+                            </div>
+                            <div>
+                                <label class="form-label" for="date">Birthdate</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+                            <div>
+                                <label class="form-label">Gender</label>
+                                <label class="form-inlabel" for="gender">Male</label> 
+                                <input type="radio" id="male" name="gender" value="Male">
+                            
+                                <label class="form-inlabel" for="gender">Female</label>
+                                <input type="radio" id="female" name="gender" value="Female">
+                            </div>
+                            <div>
+                                <label class="form-label" for="status">Marital Status</label>
+                                <select name="status" id="status">
+                                    <option value="Single">Single</option>
+                                    <option value="Married">Married</option>
+                                    <option value="Divorced">Divorced</option>
+                                    <option value="No">Would rather not tell</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="form-label" for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                            <div>
+                                <label class="form-label" for="language">Education</label><br>
+                                <label class="form-inlabel" for="spm">Sijil Pelajaran Malaysia</label>
+                                <input type="checkbox" name="spm" id="spm"><br>
+                                <label class="form-inlabel" for="diploma">Diploma</label>
+                                <input type="checkbox" name="diploma" id="diploma"><br>
+                                <label class="form-inlabel" for="degree">Bachelor of Degree</label>
+                                <input type="checkbox" name="degree" id="degree"><br>
+                                <label class="form-inlabel" for="masters">Masters & onwards</label>
+                                <input type="checkbox" name="masters" id="masters">
+                            </div>
+                            <div>
+                                <label class="form-label" for="language">Preferred Language</label>
+                                <select name="language" id="language">
+                                    <option value="Java">Java</option>
+                                    <option value="HTML">HTML</option>
+                                    <option value="C">C Language</option>
+                                    <option value="Python">Python</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="JavaScript">JavaScript</option>
+                                </select>
+                            </div>
+                            <button class="button" type="submit">Submit</button>
+                        </form>
+                    </div>
+                        
+                </div>
+
+           
+
+            </section>
+            
+        </section>
+        <footer>
+        </footer>
+    </body>
+</html>
